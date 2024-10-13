@@ -42,9 +42,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi there! 
 
-My name is [Noviria Syifaun Nafsi](https://www.linkedin.com/in/noviria-syifaun-nafsi), a master's student in [Agricultural Sciences and Resource Management in the Tropics and Subtropics (ARTS)](https://www.arts.uni-bonn.de/) at the [University of Bonn](https://www.uni-bonn.de/en). This is my learning logbook for the course ["Tree Phenology Analysis with R"](https://hortibonn.github.io/Tree-Phenology/). 
+My name is [Noviria Syifaun Nafsi](https://www.linkedin.com/in/noviria-syifaun-nafsi), a master's student in [Agricultural Sciences and Resource Management in the Tropics and Subtropics (ARTS)](https://www.arts.uni-bonn.de/) at the [University of Bonn](https://www.uni-bonn.de/en). This is my learning logbook for the course of ["Tree Phenology Analysis with R"](https://hortibonn.github.io/Tree-Phenology/). 
 
-In this course, we use `chillR` package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
+In this course, we use **`chillR`** package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
 
 I will be sharing my learning progress during this course in this logbook.
 
@@ -56,6 +56,19 @@ I will be sharing my learning progress during this course in this logbook.
 # **2. The tools we use**
 
 In this course, the tools we use are RStudio and GitHub.
+
+<div style="text-align: center;">
+  ![](RStudio_logo_flat.svg.png){width=70%}
+</div>
+
+<div style="text-align: center;">
+  ![](git.png) ![](github.png){width=25%}
+</div>
+
+<div style="text-align: center;">
+  ![](RMarkdown.png)![](knitr.png)
+</div>
+
 
 Here are some videos from [Dr. Cory Whitney](https://inresgb-lehre.iaas.uni-bonn.de/author/dr.-cory-whitney/) to introduce you with the tools:
 

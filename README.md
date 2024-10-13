@@ -1,6 +1,6 @@
 # Tree-phenology-analysis-with-R-lecture
 
-![**`chillR` package**](chillR.png){width=50%}
+![**`chillR` package**](chillR.png)
 
 Hi there! 
 
