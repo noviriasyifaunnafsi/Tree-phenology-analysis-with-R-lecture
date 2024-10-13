@@ -1,0 +1,194 @@
+---
+title: "Tree Phenology Analysis with R - Logbook"
+author: "Noviria Syifaun Nafsi"
+date: "`r Sys.Date()`"
+output: 
+  html_document:
+    toc: true       # Enable table of contents
+    toc_float:      # Enables floating TOC
+      collapsed: false   # Start TOC expanded
+      smooth_scroll: true  # Smooth scrolling when clicking TOC links
+    toc_depth: 2    # Include up to second-level headers in the TOC
+---
+
+<style>
+body {
+  background-color: #f0f8ff; /* Light blue background */
+}
+</style>
+
+
+<style>
+body {
+    font-size: 16px;  /* Base font size for the document */
+}
+h1 {
+    font-size: 26px;  /* Font size for H1 */
+}
+h2 {
+    font-size: 22px;  /* Font size for H2 */
+}
+h3 {
+    font-size: 20px;  /* Font size for H3 */
+}
+</style>
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# **1. Introduction**
+
+Hi there! 
+
+My name is [Noviria Syifaun Nafsi](https://www.linkedin.com/in/noviria-syifaun-nafsi), a master's student in [Agricultural Sciences and Resource Management in the Tropics and Subtropics (ARTS)](https://www.arts.uni-bonn.de/) at the [University of Bonn](https://www.uni-bonn.de/en). This is my learning logbook for the course ["Tree Phenology Analysis with R"](https://hortibonn.github.io/Tree-Phenology/). 
+
+In this course, we use `chillR` package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
+
+I will be sharing my learning progress during this course in this logbook.
+
+<div style="text-align: center;">
+  ![**`chillR` package**](chillR.png){width=50%}
+</div>
+
+
+# **2. The tools we use**
+
+In this course, the tools we use are RStudio and GitHub.
+
+Here are some videos from [Dr. Cory Whitney](https://inresgb-lehre.iaas.uni-bonn.de/author/dr.-cory-whitney/) to introduce you with the tools:
+
+## **1. R and RStudio**
+
+<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WT3tKlzCZgo?si=Ic86WvHONbARGDES&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[tutorial for R and RStudio](https://www.youtube.com/watch?v=WT3tKlzCZgo)
+
+
+## **2. Git and GitHub**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/S98XJTyIVaY?si=rFyAfK7k3ZUeugHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[tutorial for Git and Github](https://www.youtube.com/watch?v=S98XJTyIVaY)
+
+
+## **3. RMarkdown**
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/hh4wyP8tvkI?si=XBDspiJtm39VDz8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
+[tutorial for RMarkdown](https://www.youtube.com/watch?v=hh4wyP8tvkI)
+
+
+# **3. Tree dormancy**
+
+Here are my answers for the exercises from this lecture:
+
+**3.1 Put yourself in the place of a breeder who wants to calculate the temperature requirements of a newly released cultivar. Which method will you use to calculate the chilling and forcing periods? Please justify your answer.**
+
+
+*Answer:*
+
+_As a breeder, I think I will decide the method that I will be using depending on the siuation (?)_
+
+
+**3.2 Which are the advantages (2) of the BBCH scale compared with earlies scales?**
+
+*Answer:*
+
+_As a breeder, I think I will decide the method that I will be using depending on the siuation (?)_
+
+
+**3.3 Classify the following phenological stages of sweet cherry according to the BBCH scale:**
+
+![Phenological stages of cherry](pheno_stages.png)
+
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+# **4. Climate change and impact projection**
+
+Here are my answers for the exercises from this lecture:
+
+**4.1 List the main drivers of climate change at the decade to century scale, and briefly explain the mechanism through which the currently most important driver affects our climate.**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+**4.2 Explain briefly what is special about temperature dynamics of recent decades, and why we have good reasons to be concerned.**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+**4.3 What does the abbreviation ‘RCP’ stand for, how are RCPs defined, and what is their role in projecting future climates?**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+**4.4 Briefly describe the 4 climate impact projection methods described in the fourth video.**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+# **5. Winter chill projections**
+
+Here are my answers for the exercises from this lecture:
+
+**5.1 Sketch out three data access and processing challenges that had to be overcome in order to produce chill projections with state-of-the-art methodology.**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+**5.2 Outline, in your understanding, the basic steps that are necessary to make such projections.**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+# **6. Manual chill analysis**
+
+**`Exercises`** on basic chill modeling
+
+**6.1 Write a basic function that calculates warm hours (>25°C)**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+
+**6.2 Apply this function to the Winters_hours_gaps dataset**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+**6.3 Extend this function, so that it can take start and end dates as inputs and sums up warm hours between these dates**
+
+*Answer:*
+
+_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
+
+
+
+
+```{r pressure, echo=FALSE}
+plot(pressure)
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
