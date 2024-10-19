@@ -8,4 +8,4 @@ My name is [Noviria Syifaun Nafsi](https://www.linkedin.com/in/noviria-syifaun-n
 
 In this course, we use `chillR` package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
 
-I will be sharing my learning progress during this course in this logbook.
+I will be sharing my learning progress during this course in this repository.
