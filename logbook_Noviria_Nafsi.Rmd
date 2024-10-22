@@ -42,9 +42,9 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Hi there! 
 
-My name is [Noviria Syifaun Nafsi](https://www.linkedin.com/in/noviria-syifaun-nafsi), a master's student in [Agricultural Sciences and Resource Management in the Tropics and Subtropics (ARTS)](https://www.arts.uni-bonn.de/) at the [University of Bonn](https://www.uni-bonn.de/en). This is my learning logbook for the course of ["Tree Phenology Analysis with R"](https://hortibonn.github.io/Tree-Phenology/). 
+My name is Noviria Syifaun Nafsi, a master's student in [Agricultural Sciences and Resource Management in the Tropics and Subtropics (ARTS)](https://www.arts.uni-bonn.de/) at the [University of Bonn](https://www.uni-bonn.de/en). This is my learning logbook for the course ["Tree Phenology Analysis with R"](https://hortibonn.github.io/Tree-Phenology/). 
 
-In this course, we use **`chillR`** package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
+In this course, we use `chillR` package for R which have been developing by [Prof. Dr. Eike Luedeling](https://inresgb-lehre.iaas.uni-bonn.de/author/prof.-dr.-eike-luedeling/) since 2013.
 
 I will be sharing my learning progress during this course in this logbook.
 
@@ -58,71 +58,68 @@ I will be sharing my learning progress during this course in this logbook.
 In this course, the tools we use are RStudio and GitHub.
 
 <div style="text-align: center;">
-  ![](RStudio_logo_flat.svg.png){width=70%}
+  ![](RStudio_logo_flat.svg.png){width=50%}
+</div>
+
+
+<div style="text-align: center;">
+![](git.png){width=30%}![](github.png){width=30%}
 </div>
 
 <div style="text-align: center;">
-  ![](git.png) ![](github.png){width=25%}
+![](rmarkdown.png){width=30%}![](knitr.png){width=30%}
 </div>
-
-<div style="text-align: center;">
-  ![](RMarkdown.png)![](knitr.png)
-</div>
-
 
 Here are some videos from [Dr. Cory Whitney](https://inresgb-lehre.iaas.uni-bonn.de/author/dr.-cory-whitney/) to introduce you with the tools:
 
 ## **1. R and RStudio**
-
-<iframe width="560" height="315" src="https://www.youtube-nocookie.com/embed/WT3tKlzCZgo?si=Ic86WvHONbARGDES&amp;start=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[tutorial for R and RStudio](https://www.youtube.com/watch?v=WT3tKlzCZgo)
+[Tutorial for R and RStudio](https://www.youtube.com/watch?v=WT3tKlzCZgo)
 
 
 ## **2. Git and GitHub**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/S98XJTyIVaY?si=rFyAfK7k3ZUeugHf" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[tutorial for Git and Github](https://www.youtube.com/watch?v=S98XJTyIVaY)
+[Tutorial for Git and Github](https://www.youtube.com/watch?v=S98XJTyIVaY)
 
 
 ## **3. RMarkdown**
-
-<iframe width="560" height="315" src="https://www.youtube.com/embed/hh4wyP8tvkI?si=XBDspiJtm39VDz8i" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-
-[tutorial for RMarkdown](https://www.youtube.com/watch?v=hh4wyP8tvkI)
+[Tutorial for RMarkdown](https://www.youtube.com/watch?v=hh4wyP8tvkI)
 
 
 # **3. Tree dormancy**
+
+This chapter discuss tree dormancy that specifically for temperate fruit trees. More details about this chapter can be accessed [here](https://hortibonn.github.io/Tree-Phenology/tree-dormancy.html).
 
 Here are my answers for the exercises from this lecture:
 
 **3.1 Put yourself in the place of a breeder who wants to calculate the temperature requirements of a newly released cultivar. Which method will you use to calculate the chilling and forcing periods? Please justify your answer.**
 
-
 *Answer:*
 
-_As a breeder, I think I will decide the method that I will be using depending on the siuation (?)_
+_As a breeder, I believe the choice of method would depend on the specific circumstances. However, conducting an experiment or using empirical methods may be more straightforward for a breeder who lacks sufficient flowering data for the newly released cultivar. On the other hand, if there is enough flowering data available for statistical analysis, I would opt for that approach, as it could save time compared to waiting for experimental results to be completed._
 
 
 **3.2 Which are the advantages (2) of the BBCH scale compared with earlies scales?**
 
 *Answer:*
 
-_As a breeder, I think I will decide the method that I will be using depending on the siuation (?)_
+_The advantage of the BBCH scale compared to traditional scales is that traditional scales are limited to covering only the development of buds, while the BBCH scale covers the entire development of the plant. Additionally, the BBCH scale is designed with a general framework that can be applied to all plant species._
 
 
 **3.3 Classify the following phenological stages of sweet cherry according to the BBCH scale:**
 
-![Phenological stages of cherry](pheno_stages.png)
 
+<div style="text-align: center;">
+![**Phenological stages of cherry**](pheno_stages.png)
+</div>
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
-
+_1. The picture on the left is 0 stage or bud development stage_
+_2. The picture in the middle is 6 stage or flowering stage, which is probably 50% of flower open_
+_3. The picture on the right is 8 stage or ripening or maturity, where fruit ripe for harvesting _
 
 # **4. Climate change and impact projection**
+
+This chapter discuss the overview about climate change and impact projection. More details about this chapter can be accessed [here](https://hortibonn.github.io/Tree-Phenology/climate-change-and-impact-projection.html).
 
 Here are my answers for the exercises from this lecture:
 
@@ -130,30 +127,28 @@ Here are my answers for the exercises from this lecture:
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
+
 
 **4.2 Explain briefly what is special about temperature dynamics of recent decades, and why we have good reasons to be concerned.**
 
 *Answer:*
-
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 **4.3 What does the abbreviation ‘RCP’ stand for, how are RCPs defined, and what is their role in projecting future climates?**
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 **4.4 Briefly describe the 4 climate impact projection methods described in the fourth video.**
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 # **5. Winter chill projections**
+
+This chapter discuss the overview about winter chill projections based on the past study by Prof. Dr. Eike Luedeling. More details about this chapter can be accessed [here](https://hortibonn.github.io/Tree-Phenology/winter-chill-projections.html).
 
 Here are my answers for the exercises from this lecture:
 
@@ -161,17 +156,34 @@ Here are my answers for the exercises from this lecture:
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 **5.2 Outline, in your understanding, the basic steps that are necessary to make such projections.**
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 # **6. Manual chill analysis**
+
+This chapter discuss the basic R operations for calculating Chilling hours. More details about this chapter can be accessed [here](https://hortibonn.github.io/Tree-Phenology/manual-chill-analysis.html).
+
+
+```{r, echo=FALSE}
+
+#install.packages("chillR")
+library(chillR)
+library(knitr)
+library(pander)
+library(kableExtra)
+
+kable(Winters_hours_gaps[1:10,])  %>%
+  kable_styling("striped", position = "left",font_size = 10)
+
+hourtemps<-Winters_hours_gaps[,c("Year","Month","Day","Hour","Temp")]
+
+```
+
 
 **`Exercises`** on basic chill modeling
 
@@ -179,7 +191,6 @@ _As a breeder, I think I wil decide the method that I will be using depending on
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 
@@ -187,21 +198,11 @@ _As a breeder, I think I wil decide the method that I will be using depending on
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
-
 
 **6.3 Extend this function, so that it can take start and end dates as inputs and sums up warm hours between these dates**
 
 *Answer:*
 
-_As a breeder, I think I wil decide the method that I will be using depending on the siuation (?)_
 
 
 
-
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
